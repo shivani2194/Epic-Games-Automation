@@ -1,0 +1,12 @@
+{
+
+    "baseUrl": "https://www.epicgames.com/store/en-US",
+    "viewportHeight": 768,
+    "viewportWidth": 1366,
+    "video": false,
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "results/output.[hash].xml"
+    }
+
+}
