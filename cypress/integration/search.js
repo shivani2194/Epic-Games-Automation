@@ -27,7 +27,7 @@ describe('Search bar Epic Game', function() {
     it('Auto search', function() {
         Cypress.env("gameSearchData").forEach(search => {
             cy.get("[data-testid=search-bar]").type(search.searchStr.slice(0, 3))
-            cy.wait(1000)
+            cy.wait(5000)
             cy.get("div.css-zgal9t-DiscoverCardLayout__component").within(() => {
                 cy.get("a").should($a => {
                     const href = $a.map((_i, el) => {

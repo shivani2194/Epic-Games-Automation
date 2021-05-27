@@ -17,8 +17,4 @@ describe('Visit Epic Game', function() {
             cy.get('.css-12usrln-PDPTitleHeader__headline1 > span').contains(e.game)
         })
     })
-
-    // it('Select each game title and check if goes to its URL', function() {
-    //     cy.get('ul.css-1xe22b2-BrowseGrid-styles__cardsContainer').children()
-    // });
 })
